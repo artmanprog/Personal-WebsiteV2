@@ -1,3 +1,9 @@
 body{
     background-color: #F5F5F5;
 }
+.email_btn{
+    float: right; 
+}
+.logo_btn{
+    float: left;
+}

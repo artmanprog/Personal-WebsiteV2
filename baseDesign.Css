@@ -3,14 +3,18 @@ body{
 }
 .nav_btns{
     border: none;
+    background-color: #F5F5F5;
 }
 #email_btn{
     float: right;
-    font-size: 200%;
+    font-size: 150%;
+    font-family: 'Playfair Display', serif;
+
 }
 #logo_btn{
     float: left;
     font-size: 250%;
+    font-family: 'Playfair Display', serif;
 }
 #nav_bar{
     overflow: hidden;

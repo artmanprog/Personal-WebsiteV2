@@ -9,13 +9,14 @@ body{
     float: right;
     font-size: 150%;
     font-family: 'Playfair Display', serif;
+    padding-left: 30%;
 
 }
 #logo_btn{
     float: left;
     font-size: 250%;
     font-family: 'Playfair Display', serif;
-    padding-right: 25%;
+    padding-right: 30%;
 }
 #nav_bar{
     overflow: hidden;

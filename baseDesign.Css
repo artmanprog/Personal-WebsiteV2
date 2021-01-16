@@ -1,9 +1,17 @@
 body{
     background-color: #F5F5F5;
 }
-.email_btn{
-    float: right; 
+.nav_btns{
+    border: none;
 }
-.logo_btn{
+#email_btn{
+    float: right;
+    font-size: 200%;
+}
+#logo_btn{
     float: left;
+    font-size: 250%;
+}
+#nav_bar{
+    overflow: hidden;
 }

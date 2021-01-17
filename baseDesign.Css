@@ -16,7 +16,7 @@ body{
     float: left;
     font-size: 250%;
     font-family: 'Playfair Display', serif;
-    padding-right: 30%;
+    padding-right: 25%;
 }
 #nav_bar{
     overflow: hidden;
@@ -26,8 +26,9 @@ body{
 }
 .nav-opt-btn{
     padding-top: 1.5%;
-    padding-left: 2.5%;
+    padding-left: 2%;
     padding-right: 2.5%;
+    padding-bottom: 1%;
     font-size: 20px;
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -37,4 +38,5 @@ body{
 .nav-opt-btn:hover{
     background-color: #E3E3E3;
 }
+
 

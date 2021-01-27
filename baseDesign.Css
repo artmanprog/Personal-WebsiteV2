@@ -1,6 +1,9 @@
 body{
     background-color: #F5F5F5;
 }
+#homepage{
+    display: none;
+}
 .nav_btns{
     border: none;
     background-color: #F5F5F5;
@@ -36,7 +39,7 @@ body{
     background-color: #F5F5F5;
 }
 .nav-opt-btn:hover{
-    background-color: #E3E3E3;
+    background-color: #E1E0DF;
 }
 #name-content{
     text-align: center;
@@ -55,7 +58,30 @@ body{
 #scroll-footer{
     font-size: 24px;
     text-align: center;
-   
+
     padding-top: 40%;
+}
+#home-icon{
+    float: left;
+    font-size: 150%;
+    padding-right: 20%;
+
+}
+.nav-content{
+    text-align: center;
+    padding-top: 12.5%;
+    padding-bottom: 12.5%;
+    font-family: 'Playfair Display', serif;
+    font-size: 20px;
+    border-bottom: 1.5px solid #453F3C;
+    border-top: 1.5px solid #453F3C;;
+    margin: auto;
+     
+}
+#about-me{
+    border-color: red; 
+}
+#projects{
+    border:red;
 }
 

@@ -52,4 +52,10 @@ body{
     font-family: 'Playfair Display', serif;
 
 }
+#scroll-footer{
+    font-size: 24px;
+    text-align: center;
+   
+    padding-top: 40%;
+}
 

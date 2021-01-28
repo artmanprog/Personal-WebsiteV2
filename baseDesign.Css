@@ -74,14 +74,16 @@ body{
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     border-bottom: 1.5px solid #453F3C;
-    border-top: 1.5px solid #453F3C;;
+    
     margin: auto;
      
 }
 #about-me{
-    border-color: red; 
+    background-color: #F5F5F5;
 }
 #projects{
-    border:red;
+    border-top: 1.5px solid #453F3C;
 }
-
+#contact-me{
+    border-top: 1.5px solid #453F3C;
+}

@@ -69,8 +69,8 @@ body{
 }
 .nav-content{
     text-align: center;
-    padding-top: 12.5%;
-    padding-bottom: 12.5%;
+    padding-top: 10%;
+    padding-bottom: 12%;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     border-bottom: 1.5px solid #453F3C;
@@ -79,11 +79,22 @@ body{
      
 }
 #about-me{
-    background-color: #F5F5F5;
+    background-color: #7BBB79;
 }
 #projects{
     border-top: 1.5px solid #453F3C;
+    
 }
 #contact-me{
     border-top: 1.5px solid #453F3C;
+}
+
+#projects-content{
+    background-color: #F4B461;
+}
+#contact-me-content{
+    background-color: #74CFCF;
+}
+.info-box{
+    background-color: #EBEBEB;
 }

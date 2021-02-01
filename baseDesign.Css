@@ -93,8 +93,17 @@ body{
     background-color: #F4B461;
 }
 #contact-me-content{
-    background-color: #74CFCF;
+    background-color: #74CFCF;  
 }
 .info-box{
     background-color: #EBEBEB;
+}
+#contact-info{
+    display: none;
+}
+#project-info{
+    display: none;
+}
+#about-info{
+    display: block;
 }

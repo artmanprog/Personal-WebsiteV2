@@ -1,8 +1,12 @@
+html{
+    scroll-behavior: smooth;
+}
 body{
     background-color: #F5F5F5;
+    margin: 0%;
 }
 #homepage{
-    display: none;
+    display: block;
 }
 .nav_btns{
     border: none;
@@ -65,12 +69,14 @@ body{
     float: left;
     font-size: 150%;
     padding-right: 20%;
+    padding-left: 1%;
+    padding-top: 1%;
 
 }
 .nav-content{
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 12%;
+    padding-top: 9%;
+    padding-bottom: 9%;
     font-family: 'Playfair Display', serif;
     font-size: 20px;
     border-bottom: 1.5px solid #453F3C;

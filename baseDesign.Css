@@ -7,6 +7,8 @@ body{
 }
 #homepage{
     display: block;
+    height: 100%;
+    display: none;
 }
 .nav_btns{
     border: none;
@@ -86,6 +88,7 @@ body{
 }
 #about-me{
     background-color: #7BBB79;
+    
 }
 #projects{
     border-top: 1.5px solid #453F3C;

@@ -108,10 +108,10 @@ body{
     background-color: #EBEBEB;
 }
 #contact-info{
-    display: none;
+    display: block;
 }
 #project-info{
-    display: none;
+    display: block;
 }
 #about-info{
     display: block;

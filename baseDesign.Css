@@ -116,3 +116,8 @@ body{
 #about-info{
     display: block;
 }
+.abt-btn{
+    position: absolute;
+    left:10%;
+    top:-50%
+}

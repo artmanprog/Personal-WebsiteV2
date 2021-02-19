@@ -73,6 +73,7 @@ body{
     padding-right: 20%;
     padding-left: 1%;
     padding-top: 1%;
+    position: fixed;
 
 }
 .nav-content{
@@ -115,9 +116,4 @@ body{
 }
 #about-info{
     display: block;
-}
-.abt-btn{
-    position: absolute;
-    left:10%;
-    top:-50%
 }

@@ -3,17 +3,20 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    
+    background-image: url('images/backgrounds/whitebg.jpeg');
+    background-size: contain;
     margin: 0%;
 }
 #homepage{
     display: block;
     height: 100%;
-    background-image: url(image/backgrounds/space.jpeg);
+    
+    
 }
 .nav_btns{
     border: none;
-    background-color: #F5F5F5;
+    background-color: transparent;
+    
 }
 #email_btn{
     float: right;
@@ -43,7 +46,7 @@ body{
     font-family: 'Playfair Display', serif;
     text-align: center;
     border: none;
-    background-color: #F5F5F5;
+    background-color: transparent;
 }
 .nav-opt-btn:hover{
     background-color: #E1E0DF;
@@ -53,13 +56,16 @@ body{
     padding-top: 5%;
     font-size: 64px;
     font-family: 'Playfair Display', serif;
+    background-color: rgba(242, 233, 220, 0.9);
 
 }
 #name-subcontent{
     text-align: center;
     padding-top: 2%;
+    padding-bottom: 7%;
     font-size: 30px;
     font-family: 'Playfair Display', serif;
+    background-color: white;
 
 }
 #scroll-footer{

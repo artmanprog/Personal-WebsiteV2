@@ -1,14 +1,15 @@
+
 html{
     scroll-behavior: smooth;
 }
 body{
-    background-color: #F5F5F5;
+    
     margin: 0%;
 }
 #homepage{
     display: block;
     height: 100%;
-    display: none;
+    background-image: url(image/backgrounds/space.jpeg);
 }
 .nav_btns{
     border: none;

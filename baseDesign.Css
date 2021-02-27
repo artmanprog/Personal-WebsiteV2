@@ -1,4 +1,3 @@
-
 html{
     scroll-behavior: smooth;
 }
@@ -7,29 +6,153 @@ body{
     background-size: contain;
     margin: 0%;
 }
+/* Large monitors */
+@media screen and (min-width:1080px){
+    #homepage{
+        display: block;
+        height: 100%;
+    }
+    #hello_part{
+        height: 25%;
+    }
+    .nav_btns{
+        border: none;
+        background-color: transparent;
+    }
+    #email_btn{
+        float: right;
+        font-size: 150%;
+        font-family: 'Playfair Display', serif;
+        padding-left: 15%;
+    }
+    #email_btn:hover{
+        background-color: #E1E0DF;
+    }
+    #logo_btn{
+        float: left;
+        font-size: 300%;
+        font-family: 'Playfair Display', serif;
+        padding-right: 20%;
+        padding-left: 2%;
+    }
+    #nav_bar{
+        overflow: hidden;
+    }
+    #nav-bar li{
+        display: block;
+    }
+    .nav-opt-btn{
+        padding-top: 1.5%;
+        padding-left: 4%;
+        padding-right: 4%;
+        padding-bottom: 1%;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+    }
+    .nav-opt-btn:hover{
+        background-color: #E1E0DF;
+    }
+    #name-content{
+        text-align: center;
+        padding-top: 5%;
+        font-size: 64px;
+        font-family: 'Playfair Display', serif;
+        background-color: rgba(249, 246, 240, 0.55);
+    
+    }
+    #name-subcontent{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 7%;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        background-color: rgba(249, 246, 240, 0.55);
+    
+    }
+    #scroll-footer{
+        font-size: 24px;
+        text-align: center;
+    }
+    #home-icon{
+        float: left;
+        font-size: 150%;
+        padding-right: 20%;
+        padding-left: 1%;
+        padding-top: 1%;
+        position: fixed;
+    
+    }
+    .nav-content{
+        text-align: center;
+        padding-top: 9%;
+        padding-bottom: 9%;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        border-bottom: 1.5px solid #453F3C; 
+        margin: auto;  
+    }
+    #about-me{
+        background-color: #7BBB79;     
+    }
+    #projects{
+        border-top: 1.5px solid #453F3C;
+        
+    }
+    #contact-me{
+        border-top: 1.5px solid #453F3C;
+    }
+    
+    #projects-content{
+        background-color: #F4B461;
+    }
+    #contact-me-content{
+        background-color: #74CFCF;  
+    }
+    .info-box{
+        background-color: #EBEBEB;
+    }
+    #contact-info{
+        display: block;
+    }
+    #project-info{
+        display: block;
+    }
+    #about-info{
+        display: block;
+    }
+    .content_box{
+        height: 80%;
+        width: 100%;
+    }
+}
+/* Medium monitors */
+@media screen and (max-width:1080px){
 #homepage{
     display: block;
     height: 100%;
-    
-    
 }
 .nav_btns{
     border: none;
     background-color: transparent;
-    
 }
 #email_btn{
     float: right;
     font-size: 150%;
     font-family: 'Playfair Display', serif;
     padding-left: 20%;
-
+}
+#email_btn:hover{
+    background-color: #E1E0DF;
 }
 #logo_btn{
     float: left;
     font-size: 250%;
     font-family: 'Playfair Display', serif;
     padding-right: 20%;
+    padding-left: 2%;
 }
 #nav_bar{
     overflow: hidden;
@@ -56,7 +179,7 @@ body{
     padding-top: 5%;
     font-size: 64px;
     font-family: 'Playfair Display', serif;
-    background-color: rgba(242, 233, 220, 0.9);
+    background-color: rgba(249, 246, 240, 0.55);
 
 }
 #name-subcontent{
@@ -65,7 +188,7 @@ body{
     padding-bottom: 7%;
     font-size: 30px;
     font-family: 'Playfair Display', serif;
-    background-color: white;
+    background-color: rgba(249, 246, 240, 0.55);
 
 }
 #scroll-footer{
@@ -123,4 +246,135 @@ body{
 }
 #about-info{
     display: block;
+}
+.content_box{
+    height: 80%;
+    width: 100%;
+}
+}
+
+/* Phone monitors */
+@media screen and (max-width:640px){
+    #homepage{
+        display: block;
+        height: 100%;
+        
+    }
+    .nav_btns{
+        border: none;
+        background-color: transparent;
+    }
+    #email_btn{
+        float: right;
+        font-size: 150%;
+        font-family: 'Playfair Display', serif;
+        padding-left: 20%;
+    }
+    #email_btn:hover{
+        background-color: #E1E0DF;
+    }
+    #logo_btn{
+        float: left;
+        font-size: 250%;
+        font-family: 'Playfair Display', serif;
+        padding-right: 20%;
+        padding-left: 2%;
+    }
+    #nav_bar{
+        overflow: hidden;
+    }
+    #nav-bar li{
+        display: block;
+    }
+    .nav-opt-btn{
+        padding-top: 1.5%;
+        padding-left: 2%;
+        padding-right: 2%;
+        padding-bottom: 1%;
+        font-size: 20px;
+        font-family: 'Playfair Display', serif;
+        text-align: center;
+        border: none;
+        background-color: transparent;
+    }
+    .nav-opt-btn:hover{
+        background-color: #E1E0DF;
+    }
+    #name-content{
+        text-align: center;
+        padding-top: 5%;
+        font-size: 64px;
+        font-family: 'Playfair Display', serif;
+        background-color: rgba(249, 246, 240, 0.55);
+    
+    }
+    #name-subcontent{
+        text-align: center;
+        padding-top: 2%;
+        padding-bottom: 7%;
+        font-size: 30px;
+        font-family: 'Playfair Display', serif;
+        background-color: rgba(249, 246, 240, 0.55);
+    
+    }
+    #scroll-footer{
+        font-size: 24px;
+        text-align: center;
+    
+        padding-top: 40%;
+    }
+    #home-icon{
+        float: left;
+        font-size: 150%;
+        padding-right: 20%;
+        padding-left: 1%;
+        padding-top: 1%;
+        position: fixed;
+    
+    }
+    .nav-content{
+        text-align: center;
+        padding-top: 9%;
+        padding-bottom: 9%;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        border-bottom: 1.5px solid #453F3C;
+        
+        margin: auto;
+         
+    }
+    #about-me{
+        background-color: #7BBB79;
+        
+    }
+    #projects{
+        border-top: 1.5px solid #453F3C;
+        
+    }
+    #contact-me{
+        border-top: 1.5px solid #453F3C;
+    }
+    
+    #projects-content{
+        background-color: #F4B461;
+    }
+    #contact-me-content{
+        background-color: #74CFCF;  
+    }
+    .info-box{
+        background-color: #EBEBEB;
+    }
+    #contact-info{
+        display: block;
+    }
+    #project-info{
+        display: block;
+    }
+    #about-info{
+        display: block;
+    }
+    .content_box{
+        height: 80%;
+        width: 100%;
+    }
 }

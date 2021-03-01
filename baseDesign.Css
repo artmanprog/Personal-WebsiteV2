@@ -7,7 +7,7 @@ body{
     margin: 0%;
 }
 /* Large monitors */
-@media screen and (min-width:1080px){
+@media screen and (min-width:1501px){
     #homepage{
         display: block;
         height: 100%;
@@ -129,7 +129,7 @@ body{
     }
 }
 /* Medium monitors */
-@media screen and (max-width:1080px){
+@media screen and (max-width:1500px){
 #homepage{
     display: block;
     height: 100%;
@@ -174,10 +174,12 @@ body{
 .nav-opt-btn:hover{
     background-color: #E1E0DF;
 }
+
 #name-content{
     text-align: center;
-    padding-top: 5%;
-    font-size: 64px;
+    vertical-align: middle;
+    padding-top: 10%;
+    font-size: 58px;
     font-family: 'Playfair Display', serif;
     background-color: rgba(249, 246, 240, 0.55);
 
@@ -194,7 +196,6 @@ body{
 #scroll-footer{
     font-size: 24px;
     text-align: center;
-
     padding-top: 40%;
 }
 #home-icon{
